@@ -1,0 +1,5 @@
+reducer  nơi để xử lý logic để update state
+
+Action object chứa data gửi từ component (UI) lên reduxation
+
+mapStateToProps : lấy data redux  về component

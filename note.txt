@@ -1,0 +1,54 @@
+---- giới thiệu thư mục ----
+
+node_modules : nơi chứa code của thư viện ( axios, tailwind,...)
+
+public : nơi chứa tài nguyên của trang web ( img, html)
+
+src : nơi tạo component
+
+.gitignore : liệt kê file, folder không được đẩy lên git 
+
+package-lock.json : liệt kê , nhật kí các thư viện đã tải , có thể xóa
+
+package.json : không được xóa, liệt kê các thư viện đang dùng dự án, các config đang dùng 
+
+readme.md : dev viết hướng dẫn sử dụng cho user
+
+--- Gioi Thiệu ---
+JSX : html + js => component
+SPAs : single page aplication ~ 1 file html đại diện cho nhiều page ( home page, login page, register page)
+
+
+Cài đặt tạo dự án với create react app : npx create-react-app [tenDuAn]
+Chạy project: npm start
+
+cách set port cho từng dự án
+
+khi push thành công -> git clone về máy ko có node module -> sài lệnh npm install để cài đặt lại  các thư viện
+
+
+bài tập 1 /home page
+header 
+navigation
+content 
+fooster
+
+
+components
+-stateful :class
+// import Baitap1 from './baitap1';
+// <Baitap1 />
+
+//  <Header />
+//       <div className='main'> <Content />
+//         <Navigation />
+//       </div>
+
+//       <Footer />
+-stateless :function
+
+
+                -_____________Buổi 2________________-
+——- DataBinding : Đưa giá trị của 1 biến tên tayout
+
+——- State :quản lý data ảnh hưởng đến việc update layout ( re-render )
